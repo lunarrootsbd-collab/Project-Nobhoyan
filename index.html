@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Nobhoyan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Project Nobhoyan</h1>
+    <p class="tagline">A vision for sustainable open‑source innovation</p>
+  </header>
+  <div>
+    <input type="text" placeholder="Search..">
+    <from>
+      <button><search aria-placeholder="search">search</search></button>
+    </from>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+  <h2>About the Project</h2>
+  <p>
+    <strong>Project NOBHOYAN</strong> is an independent, student-led initiative that began with a simple motivation: to make science learning more interactive, exploratory, and inspiring. In traditional classrooms, physics and astronomy are often taught through rote memorization of formulas and problem drills. We wanted to change that. Instead of copying equations from the board, what if students could stand on distant exoplanets, look up, and experience the universe firsthand?
+  </p>
+  <p>
+    Out of this vision grew <em>an interactive learning platform for astronomical objects</em>—a web-based simulator that renders the night sky as it would appear from over 5,700 confirmed exoplanets. Using data from NASA’s Exoplanet Archive and the GAIA catalog of more than one billion stars, our platform faithfully reproduces stellar positions, colors, magnitudes, and motions. Every star is plotted with real scientific data, giving students not just a picture of the cosmos, but a dataset they can investigate.
+  </p>
+  <p>
+    On our platform, learners can search and select exoplanets, rotate through a 3D field of stars, and then step into immersive views of the night sky. They can draw and label custom constellations, explore a “Research Lab” that enables plotting astrophysical quantities such as brightness versus temperature, and click on individual stars to reveal their true properties—radius, temperature, metallicity, distance, and more. Colors are rendered authentically, ensuring that the sky is not only beautiful but also scientifically accurate.
+  </p>
+  <p>
+    Behind the scenes, our six-member team collaborated to bring this vision to life. From data collection and JSON preprocessing to UI/UX design and front-end development, we each contributed skills that made the project possible. Weekly sprints, code reviews, and design sessions kept us on track, while outreach efforts extended our impact beyond the screen. We conducted workshops in Dhaka, Rajshahi, and Khulna, introducing over 500 students and dozens of teachers to the simulator. For many, it was their first time questioning why stars differ in color or how the universe might look from worlds beyond Earth.
+  </p>
+  <p>
+    Today, Project NOBHOYAN continues as both a teaching tool and a community effort. It’s more than a sky simulator—it’s a step toward reimagining how science education can spark curiosity, foster discovery, and make the vast universe accessible to everyone.
+  </p>
+</section>
+
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>🔧 <strong>Modular Architecture</strong> – Easily extend with plugins.</li>
+        <li>🌐 <strong>Web Interface</strong> – User‑friendly dashboard built in React.</li>
+        <li>📊 <strong>Analytics</strong> – Real‑time data visualization.</li>
+      </ul>
+    </section>
+    <section id="detailed-features">
+  <h2>Explore Our Web App</h2>
+
+  <div class="feature-block">
+    <div class="feature-text">
+      <h3>Hopping Page</h3>
+      <p>The Hopping page presents a 3D point cloud of 4,302 ExoHosts—stars that host exoplanets—using data from NASA’s Exoplanet Archive. These stars are plotted in 3D space based on their right ascension, declination, and parallax. Star sizes are determined by their radius, while colors are accurately mapped using temperature and BV index, ensuring a realistic and scientifically accurate visualization. Users can freely navigate through this stellar landscape, search for stars, and view informative pop-ups.</p>
+      <p>Exoplanets are also rendered with custom textures based on radius, eccentricity, and semimajor axis, providing immersive detail. Clicking them reveals detailed scientific information.</p>
+    </div>
+    <div class="feature-image">
+      <img src="assets/Hopping_Page.png" alt="Hopping Page" class="zoomable">
+    </div>
+  </div>
+
+  <div class="feature-block reverse">
+    <div class="feature-text">
+      <h3>Exosky Page</h3>
+      <p>By double-clicking any exohost, users are seamlessly transported to the Planetarium page, where they can observe the night sky from the surface of that star's exoplanets. Utilizing data from the Gaia Catalogue and custom algorithms, we ensure that star positions, sizes, and brightness are scientifically accurate. Users can zoom, adjust planet pole orientation, and access advanced tools for exploration.</p>
+      <ul>
+        <li><strong>Draw Constellation:</strong> Create and name custom constellations.</li>
+        <li><strong>Drag & Research:</strong> Generate HR Diagrams from selected regions.</li>
+        <li><strong>Save as Image:</strong> Capture 360° panoramic shots.</li>
+        <li><strong>Export as PDF:</strong> Create detailed sky charts.</li>
+      </ul>
+    </div>
+    <div class="feature-image">
+      <img src="assets/exosky.jpg" alt="Exosky Page" class="zoomable">
+    </div>
+  </div>
+
+  <div class="feature-block">
+    <div class="feature-text">
+      <h3>TaraBhai AI Assistant</h3>
+      <p>To make exploration easier, we’ve integrated an AI chatbot called <strong>TaraBhai</strong> (StarBro). It guides users through the app, explains concepts, and assists with navigation, making the platform accessible for everyone.</p>
+    </div>
+    <div class="feature-image">
+      <img src="assets/tarabhai.jpg" alt="TaraBhai AI Assistant" class="zoomable">
+    </div>
+  </div>
+
+  <div class="feature-benefits">
+    <h3>Benefits</h3>
+    <ul>
+      <li><strong>Educational Value:</strong> Makes astronomy accessible to all knowledge levels.</li>
+      <li><strong>Scientific Exploration:</strong> Tools like HR diagrams foster deeper learning.</li>
+      <li><strong>Visual Appeal:</strong> Stunning and accurate renderings of space objects.</li>
+      <li><strong>Customization:</strong> Personalized constellations, charts, and settings.</li>
+      <li><strong>Accessibility:</strong> Optimized for low-spec devices.</li>
+      <li><strong>User Friendliness:</strong> Guided by an AI chatbot for an intuitive experience.</li>
+    </ul>
+  </div>
+
+</section>
+
+    <section id="team">
+  <h2>Meet the Team</h2>
+  <div class="team-grid">
+    <div class="member">
+      <img src="assets/you.jpg" alt="Hrittik">
+      <h3>Hritom Sarker Oyon</h3>
+      <p>Founder</p>
+    </div>
+    <div class="member">
+      <img src="assets/member2.jpg" alt="Sumaiya">
+      <h3>Sumaiya</h3>
+      <p>UI/UX Designer</p>
+    </div>
+    <div class="member">
+      <img src="assets/member3.jpg" alt="Mahjabeen">
+      <h3>Mahjabeen</h3>
+      <p>Backend Engineer</p>
+    </div>
+    <div class="member">
+      <img src="assets/member4.jpg" alt="Tanha">
+      <h3>Tanha</h3>
+      <p>Data Scientist</p>
+    </div>
+  </div>
+</section>
+
+    <section id="contact">
+      <h2>Get Involved</h2>
+      <p>Fork the repo and submit a Pull Request. Email <a href="mailto:you@example.com">you@example.com</a>.</p>
+      <p>🔗 <a href="https://github.com/yourusername/Nobhoyan">GitHub Repository</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Project Nobhoyan Team. All rights reserved.</p>
+  </footer>
+<script>
+  document.querySelectorAll('.zoomable').forEach(img => {
+    img.addEventListener('click', () => {
+      const overlay = document.createElement('div');
+      overlay.classList.add('image-overlay');
+      overlay.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+      document.body.appendChild(overlay);
+
+      overlay.addEventListener('click', () => overlay.remove());
+    });
+  });
+</script>
+
+</body>
+</html>
